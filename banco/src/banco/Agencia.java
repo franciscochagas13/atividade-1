@@ -13,10 +13,10 @@ public class Agencia {
 	private Conta contas[];
 	private int contadorContas;
 
-	public Agencia(String p_numero, String p_endereco, String p_telefone) {
-		this.numero = p_numero;
-		this.endereco = p_endereco;
-		this.telefone = p_telefone;
+	public Agencia(String numero, String endereco, String telefone) {
+		this.numero = numero;
+		this.endereco = endereco;
+		this.telefone = telefone;
 		contas = new Conta[100];
 		contadorContas = 0;
 	}
