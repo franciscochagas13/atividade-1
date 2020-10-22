@@ -11,13 +11,13 @@ import java.util.Date;
 * 
 */
 public class Cliente {
-	String nome;
-	String cpf;
-	String endereco;
-	String telefone;
-	Date nascimento;
-	int agencia;
-	int conta;
+	private String nome;
+	private String cpf;
+	private String endereco;
+	private String telefone;
+	private Date nascimento;
+	private int agencia;
+	private int conta;
 
 	public Cliente(String p_nome, String p_cpf, String p_endereco, String p_telefone, Date p_nascimento) {
 		nome = p_nome;

@@ -6,14 +6,14 @@ package banco;
  */
 
 public class Conta {
-	Cliente titular;
-	int numero;
-	double saldo;
+	private Cliente titular;
+	private int numero;
+	private double saldo;
 
 	public Conta(Cliente p_cliente, int p_numero) {
-		titular = p_cliente;
-		numero = p_numero;
-		saldo = 0;
+		this.titular = p_cliente;
+		this.numero = p_numero;
+		this.saldo = 0;
 	}
 
 	public boolean deposito(double valor) {
